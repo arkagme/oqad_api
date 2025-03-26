@@ -5,7 +5,7 @@ const logger = require('../utils/logger');
 const initCronJob = () => {
   logger.info('Initializing cron job for daily question refresh');
   
-  cron.schedule('05 17 * * *', async () => {
+  cron.schedule('09 19 * * *', async () => {
     try {
       logger.info('Running scheduled question refresh');
       await questionService.refreshActiveQuestion();
