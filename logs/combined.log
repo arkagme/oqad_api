@@ -228,3 +228,130 @@
 {"level":"info","message":"Question refreshed: 2","service":"mcq-api","timestamp":"2025-03-27 00:20:00"}
 {"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:20:00"}
 {"level":"info","message":"GET /api/questions/today","service":"mcq-api","timestamp":"2025-03-27 00:20:06"}
+{"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-27 00:53:08"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-27 00:53:08"}
+{"level":"info","message":"Cron job initialized successfully","service":"mcq-api","timestamp":"2025-03-27 00:53:08"}
+{"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-27 00:53:24"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-27 00:53:24"}
+{"level":"info","message":"Cron job initialized successfully","service":"mcq-api","timestamp":"2025-03-27 00:53:24"}
+{"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-27 00:53:41"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-27 00:53:41"}
+{"level":"error","message":"Error during startup: Cannot read properties of undefined (reading 'replace')","service":"mcq-api","stack":"TypeError: Cannot read properties of undefined (reading 'replace')\n    at convertMonthName (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/convert-expression/month-names-conversion.js:10:37)\n    at interprete (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/convert-expression/month-names-conversion.js:16:27)\n    at interprete (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/convert-expression/index.js:54:26)\n    at validate (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/pattern-validation.js:117:32)\n    at new TimeMatcher (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/time-matcher.js:14:9)\n    at new Scheduler (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/scheduler.js:9:28)\n    at new ScheduledTask (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/scheduled-task.js:22:27)\n    at createTask (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/node-cron.js:36:12)\n    at Object.schedule (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/node-cron.js:25:18)\n    at Object.initCronJob (/Users/arkapravagaine/DCS/oqad_api/services/cronService.js:8:8)","timestamp":"2025-03-27 00:53:41"}
+{"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-27 00:53:42"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-27 00:53:42"}
+{"level":"error","message":"Error during startup: 00 is a invalid expression for day of month","service":"mcq-api","stack":"Error: 00 is a invalid expression for day of month\n    at validateFields (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/pattern-validation.js:95:15)\n    at validate (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/pattern-validation.js:121:5)\n    at new TimeMatcher (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/time-matcher.js:14:9)\n    at new Scheduler (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/scheduler.js:9:28)\n    at new ScheduledTask (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/scheduled-task.js:22:27)\n    at createTask (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/node-cron.js:36:12)\n    at Object.schedule (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/node-cron.js:25:18)\n    at Object.initCronJob (/Users/arkapravagaine/DCS/oqad_api/services/cronService.js:8:8)\n    at Server.<anonymous> (/Users/arkapravagaine/DCS/oqad_api/index.js:20:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-03-27 00:53:42"}
+{"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-27 00:53:48"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-27 00:53:48"}
+{"level":"error","message":"Error during startup: Cannot read properties of undefined (reading 'replace')","service":"mcq-api","stack":"TypeError: Cannot read properties of undefined (reading 'replace')\n    at convertMonthName (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/convert-expression/month-names-conversion.js:10:37)\n    at interprete (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/convert-expression/month-names-conversion.js:16:27)\n    at interprete (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/convert-expression/index.js:54:26)\n    at validate (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/pattern-validation.js:117:32)\n    at new TimeMatcher (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/time-matcher.js:14:9)\n    at new Scheduler (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/scheduler.js:9:28)\n    at new ScheduledTask (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/scheduled-task.js:22:27)\n    at createTask (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/node-cron.js:36:12)\n    at Object.schedule (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/node-cron.js:25:18)\n    at Object.initCronJob (/Users/arkapravagaine/DCS/oqad_api/services/cronService.js:8:8)","timestamp":"2025-03-27 00:53:48"}
+{"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-27 00:53:49"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-27 00:53:49"}
+{"level":"error","message":"Error during startup: 53 is a invalid expression for hour","service":"mcq-api","stack":"Error: 53 is a invalid expression for hour\n    at validateFields (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/pattern-validation.js:92:15)\n    at validate (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/pattern-validation.js:121:5)\n    at new TimeMatcher (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/time-matcher.js:14:9)\n    at new Scheduler (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/scheduler.js:9:28)\n    at new ScheduledTask (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/scheduled-task.js:22:27)\n    at createTask (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/node-cron.js:36:12)\n    at Object.schedule (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/node-cron.js:25:18)\n    at Object.initCronJob (/Users/arkapravagaine/DCS/oqad_api/services/cronService.js:8:8)\n    at Server.<anonymous> (/Users/arkapravagaine/DCS/oqad_api/index.js:20:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-03-27 00:53:49"}
+{"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-27 00:54:02"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-27 00:54:02"}
+{"level":"info","message":"Cron job initialized successfully","service":"mcq-api","timestamp":"2025-03-27 00:54:02"}
+{"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-27 00:54:10"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-27 00:54:10"}
+{"level":"info","message":"Cron job initialized successfully","service":"mcq-api","timestamp":"2025-03-27 00:54:10"}
+{"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-27 00:54:20"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-27 00:54:20"}
+{"level":"info","message":"Cron job initialized successfully","service":"mcq-api","timestamp":"2025-03-27 00:54:20"}
+{"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-27 00:54:34"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-27 00:54:34"}
+{"level":"error","message":"Error during startup: 00 is a invalid expression for day of month","service":"mcq-api","stack":"Error: 00 is a invalid expression for day of month\n    at validateFields (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/pattern-validation.js:95:15)\n    at validate (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/pattern-validation.js:121:5)\n    at new TimeMatcher (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/time-matcher.js:14:9)\n    at new Scheduler (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/scheduler.js:9:28)\n    at new ScheduledTask (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/scheduled-task.js:22:27)\n    at createTask (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/node-cron.js:36:12)\n    at Object.schedule (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/node-cron.js:25:18)\n    at Object.initCronJob (/Users/arkapravagaine/DCS/oqad_api/services/cronService.js:8:8)\n    at Server.<anonymous> (/Users/arkapravagaine/DCS/oqad_api/index.js:20:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-03-27 00:54:34"}
+{"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-27 00:54:42"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-27 00:54:42"}
+{"level":"error","message":"Error during startup: Cannot read properties of undefined (reading 'replace')","service":"mcq-api","stack":"TypeError: Cannot read properties of undefined (reading 'replace')\n    at convertMonthName (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/convert-expression/month-names-conversion.js:10:37)\n    at interprete (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/convert-expression/month-names-conversion.js:16:27)\n    at interprete (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/convert-expression/index.js:54:26)\n    at validate (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/pattern-validation.js:117:32)\n    at new TimeMatcher (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/time-matcher.js:14:9)\n    at new Scheduler (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/scheduler.js:9:28)\n    at new ScheduledTask (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/scheduled-task.js:22:27)\n    at createTask (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/node-cron.js:36:12)\n    at Object.schedule (/Users/arkapravagaine/DCS/oqad_api/node_modules/node-cron/src/node-cron.js:25:18)\n    at Object.initCronJob (/Users/arkapravagaine/DCS/oqad_api/services/cronService.js:8:8)","timestamp":"2025-03-27 00:54:42"}
+{"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-27 00:54:43"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-27 00:54:43"}
+{"level":"info","message":"Cron job initialized successfully","service":"mcq-api","timestamp":"2025-03-27 00:54:43"}
+{"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-27 00:54:53"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-27 00:54:53"}
+{"level":"info","message":"Cron job initialized successfully","service":"mcq-api","timestamp":"2025-03-27 00:54:53"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:54:54"}
+{"level":"info","message":"Normal question #4 activated","service":"mcq-api","timestamp":"2025-03-27 00:54:54"}
+{"level":"info","message":"Question refreshed: 4","service":"mcq-api","timestamp":"2025-03-27 00:54:54"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:54:54"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:54:55"}
+{"level":"info","message":"Normal question #2 activated","service":"mcq-api","timestamp":"2025-03-27 00:54:55"}
+{"level":"info","message":"Question refreshed: 2","service":"mcq-api","timestamp":"2025-03-27 00:54:55"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:54:55"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:54:56"}
+{"level":"info","message":"Normal question #5 activated","service":"mcq-api","timestamp":"2025-03-27 00:54:56"}
+{"level":"info","message":"Question refreshed: 5","service":"mcq-api","timestamp":"2025-03-27 00:54:56"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:54:56"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:54:57"}
+{"level":"info","message":"Normal question #2 activated","service":"mcq-api","timestamp":"2025-03-27 00:54:57"}
+{"level":"info","message":"Question refreshed: 2","service":"mcq-api","timestamp":"2025-03-27 00:54:57"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:54:57"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:54:58"}
+{"level":"info","message":"Normal question #5 activated","service":"mcq-api","timestamp":"2025-03-27 00:54:58"}
+{"level":"info","message":"Question refreshed: 5","service":"mcq-api","timestamp":"2025-03-27 00:54:58"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:54:58"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:54:59"}
+{"level":"info","message":"Normal question #3 activated","service":"mcq-api","timestamp":"2025-03-27 00:54:59"}
+{"level":"info","message":"Question refreshed: 3","service":"mcq-api","timestamp":"2025-03-27 00:54:59"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:54:59"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:00"}
+{"level":"info","message":"Normal question #5 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:00"}
+{"level":"info","message":"Question refreshed: 5","service":"mcq-api","timestamp":"2025-03-27 00:55:00"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:00"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:01"}
+{"level":"info","message":"Normal question #4 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:01"}
+{"level":"info","message":"Question refreshed: 4","service":"mcq-api","timestamp":"2025-03-27 00:55:01"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:01"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:02"}
+{"level":"info","message":"Normal question #2 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:02"}
+{"level":"info","message":"Question refreshed: 2","service":"mcq-api","timestamp":"2025-03-27 00:55:02"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:02"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:03"}
+{"level":"info","message":"Normal question #5 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:03"}
+{"level":"info","message":"Question refreshed: 5","service":"mcq-api","timestamp":"2025-03-27 00:55:03"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:03"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:04"}
+{"level":"info","message":"Normal question #2 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:04"}
+{"level":"info","message":"Question refreshed: 2","service":"mcq-api","timestamp":"2025-03-27 00:55:04"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:04"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:05"}
+{"level":"info","message":"Normal question #5 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:05"}
+{"level":"info","message":"Question refreshed: 5","service":"mcq-api","timestamp":"2025-03-27 00:55:05"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:05"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:06"}
+{"level":"info","message":"Normal question #3 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:06"}
+{"level":"info","message":"Question refreshed: 3","service":"mcq-api","timestamp":"2025-03-27 00:55:06"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:06"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:07"}
+{"level":"info","message":"Normal question #2 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:07"}
+{"level":"info","message":"Question refreshed: 2","service":"mcq-api","timestamp":"2025-03-27 00:55:07"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:07"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:08"}
+{"level":"info","message":"Normal question #4 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:08"}
+{"level":"info","message":"Question refreshed: 4","service":"mcq-api","timestamp":"2025-03-27 00:55:08"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:08"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:09"}
+{"level":"info","message":"Normal question #5 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:09"}
+{"level":"info","message":"Question refreshed: 5","service":"mcq-api","timestamp":"2025-03-27 00:55:09"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:09"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:10"}
+{"level":"info","message":"Normal question #2 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:10"}
+{"level":"info","message":"Question refreshed: 2","service":"mcq-api","timestamp":"2025-03-27 00:55:10"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:10"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:11"}
+{"level":"info","message":"Normal question #1 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:11"}
+{"level":"info","message":"Question refreshed: 1","service":"mcq-api","timestamp":"2025-03-27 00:55:11"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:11"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:12"}
+{"level":"info","message":"Normal question #3 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:12"}
+{"level":"info","message":"Question refreshed: 3","service":"mcq-api","timestamp":"2025-03-27 00:55:12"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:12"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:13"}
+{"level":"info","message":"Normal question #5 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:13"}
+{"level":"info","message":"Question refreshed: 5","service":"mcq-api","timestamp":"2025-03-27 00:55:13"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:13"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:14"}
+{"level":"info","message":"Normal question #1 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:14"}
+{"level":"info","message":"Question refreshed: 1","service":"mcq-api","timestamp":"2025-03-27 00:55:14"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:14"}
+{"level":"info","message":"Running scheduled question refresh","service":"mcq-api","timestamp":"2025-03-27 00:55:15"}
+{"level":"info","message":"Normal question #3 activated","service":"mcq-api","timestamp":"2025-03-27 00:55:15"}
+{"level":"info","message":"Question refreshed: 3","service":"mcq-api","timestamp":"2025-03-27 00:55:15"}
+{"level":"info","message":"Question refresh completed successfully","service":"mcq-api","timestamp":"2025-03-27 00:55:15"}
