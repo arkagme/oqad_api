@@ -195,3 +195,6 @@
 {"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-26 21:46:00"}
 {"level":"info","message":"Cron job initialized successfully","service":"mcq-api","timestamp":"2025-03-26 21:46:00"}
 {"level":"info","message":"GET /api/health","service":"mcq-api","timestamp":"2025-03-26 21:46:23"}
+{"level":"info","message":"Server running in process.env.NODE_ENV || development mode on port process.env.PORT || 3000","service":"mcq-api","timestamp":"2025-03-26 22:03:28"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-26 22:03:28"}
+{"level":"info","message":"Cron job initialized successfully","service":"mcq-api","timestamp":"2025-03-26 22:03:28"}

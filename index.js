@@ -2,6 +2,7 @@ const app = require('./app');
 const config = require('./config');
 const logger = require('./utils/logger');
 const { cronService, questionService } = require('./services');
+process.env.NODE_ENV = 'production';
 
 // Start the server
 const server = app.listen(config.port, async () => {
