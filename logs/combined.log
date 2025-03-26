@@ -188,3 +188,10 @@
 {"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-22 17:42:25"}
 {"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-22 17:42:25"}
 {"level":"info","message":"Cron job initialized successfully","service":"mcq-api","timestamp":"2025-03-22 17:42:25"}
+{"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-26 21:04:59"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-26 21:04:59"}
+{"level":"info","message":"Cron job initialized successfully","service":"mcq-api","timestamp":"2025-03-26 21:04:59"}
+{"level":"info","message":"Server running in development mode on port 3000","service":"mcq-api","timestamp":"2025-03-26 21:46:00"}
+{"level":"info","message":"Initializing cron job for daily question refresh","service":"mcq-api","timestamp":"2025-03-26 21:46:00"}
+{"level":"info","message":"Cron job initialized successfully","service":"mcq-api","timestamp":"2025-03-26 21:46:00"}
+{"level":"info","message":"GET /api/health","service":"mcq-api","timestamp":"2025-03-26 21:46:23"}
