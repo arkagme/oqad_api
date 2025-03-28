@@ -50,7 +50,7 @@ const getRandomQuestion = async () => {
         SELECT id FROM normal_questions 
         WHERE is_active = true
       )
-      ORDER BY id 
+      ORDER BY RANDOM()
       LIMIT 1
     `);
     
