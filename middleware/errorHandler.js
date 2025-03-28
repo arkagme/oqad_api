@@ -11,13 +11,13 @@ const errorHandler = (err, req, res, next) => {
     return next(err);
   }
   
-  const statusCode = err.statusCode || 500;
-  const errorMessage = err.message || 'Internal Server Error';
+  const statusCode = err.statusCode;
+  const errorMessage = err.message;
   
   res.status(statusCode).json({
     success: false,
     error: {
-      code: err.code || 'SERVER_ERROR',
+      code: err.code ,
       message: errorMessage
     }
   });

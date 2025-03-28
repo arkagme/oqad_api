@@ -54,13 +54,13 @@ const getRandomQuestion = async () => {
         SELECT id FROM hard_questions 
         WHERE is_active = true
       )
-      ORDER BY RANDOM() 
+      ORDER BY id
       LIMIT 1
     `);
     
     return result.rows[0];
   } catch (error) {
-    logger.error('Error fetching random hard question:', error);
+    logger.error('Error fetching hard question:', error);
     throw error;
   }
 };

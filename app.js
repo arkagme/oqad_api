@@ -6,25 +6,21 @@ const { errorHandler } = require('./middleware');
 const logger = require('./utils/logger');
 const config = require('./config');
 
-// Create Express app
+
 const app = express();
 
-// Middleware
-app.use(helmet()); // Security headers
-app.use(cors()); // CORS handling
-app.use(express.json()); // Parse JSON request body
-app.use(express.urlencoded({ extended: true })); // Parse URL-encoded request body
+app.use(helmet()); 
+app.use(cors()); 
+app.use(express.json()); 
+app.use(express.urlencoded({ extended: true })); 
 
-// Request logging
+
 app.use((req, res, next) => {
   logger.info(`${req.method} ${req.originalUrl}`);
   next();
 });
-
-// API routes
 app.use('/api', routes);
 
-// Root route
 app.get('/', (req, res) => {
   res.json({
     message: 'MCQ Questions API',
@@ -33,7 +29,6 @@ app.get('/', (req, res) => {
   });
 });
 
-// 404 handler
 app.use((req, res) => {
   res.status(404).json({
     success: false,
@@ -44,7 +39,6 @@ app.use((req, res) => {
   });
 });
 
-// Error handler middleware
 app.use(errorHandler);
 
 module.exports = app;

@@ -12,10 +12,6 @@ const logger = winston.createLogger({
     winston.format.json()
   ),
   defaultMeta: { service: 'mcq-api' },
-  transports: [
-    new winston.transports.File({ filename: 'logs/error.log', level: 'error' }),
-    new winston.transports.File({ filename: 'logs/combined.log' })
-  ]
 });
 
 // If we're not in production, log to the console as well
